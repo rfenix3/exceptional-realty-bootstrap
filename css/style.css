@@ -1,3 +1,17 @@
+
+/* MEDIA */
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100% /* Firefox, Safari, Chrome */
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+/* BELOW ARE FROM OLD NON-BOOTSTRAP STYLE.CSS */
+
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
@@ -15,7 +29,7 @@ selector {
 /* Type selector */
 
 p { /* select all <p> */
-  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  font-size: 1em;  16px, ?pt, 100%, 1em 
   line-height: 1.5em;
 }
 
